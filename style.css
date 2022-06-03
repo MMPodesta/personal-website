@@ -8,8 +8,21 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #5d4954;
+    background-color: #170f1d;
     font-family: 'Poppins', sans-serif;
+}
+body{
+    max-height: 100vh;
+    background-color: #170f1d;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.main-box{
+    border-style: solid;
+    width: 80%;
+    background-color: rgb(224, 224, 224);
 }
 .logo{
     color: rgb(224, 224, 224);
@@ -58,7 +71,7 @@ nav{
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: #5d4954;
+        background-color: #170f1d;
         display: flex;
         flex-direction: column;
         align-items: center;
