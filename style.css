@@ -3,26 +3,19 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    max-height: 100vh;
+    background-color: rgb(224, 224, 224);
+}
+
+/*-_-_-_-_-_-_-_-_ responsive nav -_-_-_-_-_-_-_-_*/
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #170f1d;
+    background-color: #0c0a0d;
     font-family: 'Poppins', sans-serif;
-}
-body{
-    max-height: 100vh;
-    background-color: #170f1d;
-}
-main{
-    display: flex;
-    justify-content: center;
-}
-.main-box{
-    border-style: solid;
-    width: 80%;
-    background-color: rgb(224, 224, 224);
 }
 .logo{
     color: rgb(224, 224, 224);
@@ -45,6 +38,8 @@ main{
     font-weight: bold;
     font-size: 14px;
 }
+
+/*-_-_-_-_-_-_-_-_ burguer icon -_-_-_-_-_-_-_-_*/
 .burger{
     display: none;
     cursor: pointer;
@@ -56,6 +51,8 @@ main{
     margin: 5px;
     transition: all 0.3s ease;
 }
+
+/*-_-_-_-_-_-_-_-_ media responsive -_-_-_-_-_-_-_-_*/
 @media(max-width:1024px) {
     .nav-links{
         width: 60%;
@@ -71,7 +68,7 @@ main{
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: #170f1d;
+        background-color: #0c0a0d;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -87,6 +84,7 @@ main{
     }
 }
 
+/*-_-_-_-_-_-_-_-_ animation on links and burguer -_-_-_-_-_-_-_-_*/
 .nav-active{
     transform: translateX(0%);
 }
@@ -110,4 +108,41 @@ main{
 }
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
+}
+
+/*-_-_-_-_-_-_-_-_ landing image -_-_-_-_-_-_-_-_*/
+.landing-image{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,40,0.7), rgba(4,9,30,0.7)), url(images/back-image2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: static;
+}
+
+/*-_-_-_-_-_-_-_-_ landing image text -_-_-_-_-_-_-_-_*/
+.landing-text{
+    text-align: center;
+    color: rgb(224, 224, 224);
+    padding: 30px;
+}
+
+/*-_-_-_-_-_-_-_-_ Footer -_-_-_-_-_-_-_-_*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: #0c0a0d;
+    color: rgb(224, 224, 224);
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons .fab{
+    color: rgba(182, 97, 48, 0.6);
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
 }
