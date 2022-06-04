@@ -7,9 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
-    <title>Mauricio Murta</title>
-    <link rel="stylesheet" href="style.css">
-    
+    <link href="style.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <title><?php if(isset($pageTitle))echo($pageTitle);?></title>
+    <!-- Additional tags here -->
+    <?php if (function_exists('customPageHeader')){
+      customPageHeader();
+    }?>
 </head>
 <body>
     <nav>
@@ -39,21 +43,4 @@
             <div class="line3"></div>
         </div>
     </nav>
-    <main>
-        <div class="main-box">
-            <h1>Hello</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi
-                ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit
-                esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim
-                id est laborum.</p>
-        </div>
-    </main>
-    <script src="script.js"></script>
-</body>
-</html>
+    
