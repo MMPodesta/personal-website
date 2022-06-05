@@ -39,6 +39,20 @@ nav{
     font-size: 14px;
 }
 
+/*-_-_-_-_-_-_-_-_ line below text on nav -_-_-_-_-_-_-_-_*/
+.nav-links li::after{
+    content:'';
+    width: 0%;
+    height: 4px;
+    background: rgb(7, 15, 122);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links li:hover::after{
+    width: 100%;
+}
+
 /*-_-_-_-_-_-_-_-_ burguer icon -_-_-_-_-_-_-_-_*/
 .burger{
     display: none;
@@ -114,7 +128,7 @@ nav{
 .landing-image{
     min-height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,40,0.7), rgba(4,9,30,0.7)), url(images/back-image2.jpg);
+    background-image: linear-gradient(rgba(4,9,40,0.7), rgba(4,9,30,0.7)), url(images/back-image.jpg);
     background-position: center;
     background-size: cover;
     position: static;
@@ -125,7 +139,51 @@ nav{
     text-align: center;
     color: rgb(224, 224, 224);
     padding: 30px;
+    padding-top: 50px;
 }
+.landing-text p{
+    line-height: 35px;
+}
+
+/*-_-_-_-_-_-_-_-_ landing button -_-_-_-_-_-_-_-_*/
+.btn-main{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    background: transparent;
+    position: static;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 20px;
+}
+.btn-main:hover{
+    border: 1px solid rgb(7, 17, 156);
+    background: rgb(7, 15, 122);
+    transition: 1s;
+}
+
+/*-_-_-_-_-_-_-_-_ profile box -_-_-_-_-_-_-_-_*/
+.profile-box{
+    display: flex;
+    justify-content:space-evenly;
+}
+.profile-box a{
+    text-decoration: none;
+    color: #fff;
+}
+.left{
+    border-style: solid;
+    
+
+}
+.right{
+    border-style: solid;
+
+}
+
+
 
 /*-_-_-_-_-_-_-_-_ Footer -_-_-_-_-_-_-_-_*/
 .footer{
@@ -141,7 +199,7 @@ nav{
     font-weight: 600;
 }
 .icons .fab{
-    color: rgba(182, 97, 48, 0.6);
+    color: rgb(7, 15, 122);
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;

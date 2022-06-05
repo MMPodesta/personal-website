@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://kit.fontawesome.com/28528889ff.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
     <link href="style.css" rel="stylesheet">
     <script defer src="script.js"></script>
@@ -22,21 +23,10 @@
             <h4>Mauricio Murta</h4>
         </div>
         <ul class="nav-links">
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">Profiles</a>
-            </li>
-            <li>
-                <a href="#">Projects</a>
-            </li>
-            <li>
-                <a href="#">CV</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">CV</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
         <div class="burger">
             <div class="line1"></div>
