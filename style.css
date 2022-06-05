@@ -43,8 +43,8 @@ nav{
 .nav-links li::after{
     content:'';
     width: 0%;
-    height: 4px;
-    background: rgb(7, 15, 122);
+    height: 2px;
+    background: rgb(154, 205, 50);
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -159,8 +159,8 @@ nav{
     margin-top: 20px;
 }
 .btn-main:hover{
-    border: 1px solid rgb(7, 17, 156);
-    background: rgb(7, 15, 122);
+    border: 1px solid rgba(146, 214, 10, 0.8);
+    background: rgba(154, 205, 50,0.3);
     transition: 1s;
 }
 
@@ -173,14 +173,19 @@ nav{
     text-decoration: none;
     color: #fff;
 }
+.profile-box img{
+    background-color: yellowgreen;
+}
 .left{
     border-style: solid;
-    
-
+    padding: 15px;
 }
 .right{
     border-style: solid;
-
+    padding: 15px;
+}
+.iconify{
+    color: rgb(154, 205, 50);
 }
 
 
@@ -189,7 +194,7 @@ nav{
 .footer{
     width: 100%;
     text-align: center;
-    padding: 30px 0;
+    padding: 15px 0;
     background-color: #0c0a0d;
     color: rgb(224, 224, 224);
 }
@@ -199,7 +204,7 @@ nav{
     font-weight: 600;
 }
 .icons .fab{
-    color: rgb(7, 15, 122);
+    color: rgb(154, 205, 50);
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;

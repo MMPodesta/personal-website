@@ -27,12 +27,18 @@ include_once('header.php');
                 <h2>left column</h2>
                 <span class="iconify" data-icon="simple-icons:tryhackme"></span>
                 <a href="https://tryhackme.com/p/gangsta6">TryHackMe</a>
+                <br>
+                <span class="iconify" data-icon="simple-icons:hackerrank"></span>
+                <a href="https://www.hackerrank.com/mauriciomurta13">HackerRank</a>
 
             </div>
             <div class="right">
                 <h2>right column</h2>
                 <span class="iconify" data-icon="akar-icons:github-fill"></span>
                 <a href="https://github.com/MMPodesta">Github</a>
+                <br>
+                <img src="images/pico.jpg">
+                <a href="https://play.picoctf.org/users/gangsta6">picoCTF</a>
 
             </div>
         </div>
