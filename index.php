@@ -20,28 +20,28 @@ include_once('header.php');
         Excepteur sint occaecat <br> cupidatat non proident, 
         sunt in culpa qui officia deserunt mollit anim id est 
         laborum.</p>
-        <button class="btn-main">Find Out More</button>
+        <button class="btn-main">Get In Touch</button>
         
-        <div class="profile-box">
-            <div class="left">
-                <h2>left column</h2>
-                <span class="iconify" data-icon="simple-icons:tryhackme"></span>
+        <ul class="profile-box">
+
+            <li>
+                <span class="iconify" data-icon="simple-icons:tryhackme" data-width="75" data-height="75"></span>
                 <a href="https://tryhackme.com/p/gangsta6">TryHackMe</a>
-                <br>
-                <span class="iconify" data-icon="simple-icons:hackerrank"></span>
+            </li>
+            <li>
+                <span class="iconify" data-icon="simple-icons:hackerrank" data-width="75" data-height="75"></span>
                 <a href="https://www.hackerrank.com/mauriciomurta13">HackerRank</a>
-
-            </div>
-            <div class="right">
-                <h2>right column</h2>
-                <span class="iconify" data-icon="akar-icons:github-fill"></span>
+            </li>
+            <li>
+                <span class="iconify" data-icon="akar-icons:github-fill" data-width="75" data-height="75"></span>
                 <a href="https://github.com/MMPodesta">Github</a>
-                <br>
-                <img src="images/pico.jpg">
+            </li>
+            <li>
+                <span class="iconify" data-icon="mdi:alpha-p-circle" data-width="75" data-height="75"></span>
                 <a href="https://play.picoctf.org/users/gangsta6">picoCTF</a>
+            </li>
 
-            </div>
-        </div>
+        </ul>
     </div>
 </div>
 

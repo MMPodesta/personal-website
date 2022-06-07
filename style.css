@@ -13,7 +13,6 @@ body{
     position: static;
     color: rgb(224, 224, 224);
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
 }
 
 /*-_-_-_-_-_-_-_-_ responsive nav -_-_-_-_-_-_-_-_*/
@@ -164,7 +163,10 @@ nav{
     position: static;
     cursor: pointer;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 50px;
+}
+.btn-main{
+    font-size: 20px;
 }
 .btn-main:hover{
     border: 1px solid rgba(146, 214, 10, 0.8);
@@ -176,24 +178,31 @@ nav{
 .profile-box{
     display: flex;
     justify-content:space-evenly;
+    margin-top: 10vh;
+}
+.profile-box li{
+    list-style: none;
+    
 }
 .profile-box a{
     text-decoration: none;
     color: #fff;
-}
-.profile-box img{
-    background-color: yellowgreen;
-}
-.left{
-    border-style: solid;
-    padding: 15px;
-}
-.right{
-    border-style: solid;
-    padding: 15px;
+    font-size: 25px;
+    
 }
 .iconify{
     color: rgb(154, 205, 50);
+    vertical-align: middle;
+}
+@media(max-width:768px) {
+    .profile-box{
+        flex-direction: column;
+    }
+    .profile-box li{
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    
 }
 
 
@@ -222,7 +231,6 @@ nav{
 /*-_-_-_-_-_-_-_-_ Projects -_-_-_-_-_-_-_-_*/
 .main{
     width: 85%;
-
     margin: auto;
     padding: 20px;
     margin-top: 30px;
