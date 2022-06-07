@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 body{
-    max-height: 100vh;
-    background-color: rgb(224, 224, 224);
-
+    min-height: 100vh;
+    background-color: rgb(255, 252, 245);
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,40,0.7), rgba(4,9,30,0.7)), url(images/black.jpg);
+    background-position: center;
+    background-size: cover;
+    position: static;
+    color: rgb(224, 224, 224);
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 /*-_-_-_-_-_-_-_-_ responsive nav -_-_-_-_-_-_-_-_*/
@@ -198,6 +205,7 @@ nav{
     padding: 15px 0;
     background-color: #0c0a0d;
     color: rgb(224, 224, 224);
+    
 }
 .footer h4{
     margin-bottom: 25px;
@@ -209,4 +217,51 @@ nav{
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
+}
+
+/*-_-_-_-_-_-_-_-_ Projects -_-_-_-_-_-_-_-_*/
+.main{
+    width: 85%;
+
+    margin: auto;
+    padding: 20px;
+    margin-top: 30px;
+}
+.wrapper{
+    
+}
+.row{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    justify-content: space-evenly;
+}
+.picture img{
+    width: 85%;
+    border-radius: 8px;
+
+}
+.text h1, h4{
+    text-align: center;
+}
+.text h1{
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+.text h4{
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.text p{
+    font-size: 18px;
+}
+@media(max-width:768px) {
+    .row{
+        flex-direction: column
+    }
+    .picture img{
+        width: 100%;
+    }
 }
