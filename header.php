@@ -26,7 +26,7 @@
             <li><a href="index.php">HOME</a></li>
             <li><a href="project.php">PROJECTS</a></li>
             <li><a href="files/MauricioMurta_CV.pdf" download>CV</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="contact.php">CONTACT</a></li>
         </ul>
         <div class="burger">
             <div class="line1"></div>

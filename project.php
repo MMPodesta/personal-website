@@ -15,8 +15,8 @@ include_once('header.php');
                 <img src="images/boomerang.PNG">
             </div>
             <div class="text">
-                <h1>project name</h1>
-                <h4>Try it out here</h4>
+                <h1>Boomerang Childcare</h1>
+                <a href="https://knuth.griffith.ie/~s3065078/ass03/"><h4>Try it out here</h4></a> 
                 <p>Lorem ipsum dolor sit amet, consectetur 
                 adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua.</p>
